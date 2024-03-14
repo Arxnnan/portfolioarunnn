@@ -1,0 +1,1487 @@
+
+    body {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden; 
+      margin: 0; /* Hide the horizontal scrollbar */
+    }
+    header {
+        background-color:rgb(0,31, 63,0); /* Navy Blue Background Color */
+         /* Adjust padding as needed */
+        margin-top: 0%;
+        text-align: center;
+      }
+    
+      h1 a {
+        color: #000000; /* Light Blue Text Color */
+        margin: 1000 0 px; /* Adjust margin to add spacing between links */
+        text-decoration: none;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Stylish font, change as needed */
+        font-size: 1.5rem; /* Adjust font size as needed */
+        transition: color 0.3s; /* Smooth color transition on hover */
+      }
+      h1 a:hover {
+        color: #FFFFFF; /* White Text Color on Hover */
+        
+    
+      }
+      
+        
+        h1 {
+        margin: 0;
+        margin-top: 0;
+      }
+      .header {
+        position: sticky;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+        
+        background: rgba(118, 187, 255, 0.3);
+    
+        box-sizing: content-box;
+        margin-left: 0%;
+        margin-top: 0%;
+        border-radius: 30px; /* Adjust the border-radius value for the desired curvature */
+        
+        
+      }
+    
+    .container {
+      display: flex;
+      flex-direction: column;
+      overflow: hidden; /* Display sections in a column */
+      margin: 0;
+    }
+
+    /* Styling for the first section */
+    
+    .section {
+      width: 100%; /* Take up the full width */
+      height: 100vh;
+      position: relative;
+      overflow: hidden; /* Hide overflow content */
+      margin: 0;
+      background-color: #0961A3;
+    }
+.name{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-right:5cm;
+    font-size: 3vmax;
+}
+.frontpageimg {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+  }
+  
+  .homeimg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
+    display: block;
+    z-index: -1;
+    transition: transform 0.3s ease-out; /* Add a transition for a smooth effect */
+  }
+  
+  .zoomed {
+    transform: scale(1.2); /* Adjust the scale factor as needed */
+    cursor: pointer;}
+    .content {
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        z-index: 1;
+        opacity: 0; /* Set initial opacity to 0 for the fade-in effect */
+        animation: fadeIn 1s ease-in-out forwards; /* Apply the fadeIn animation */
+      }
+      
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      
+    .name2 {
+      font-size: 3vw;
+      line-height: 4vw;
+      font-weight: 700;
+      left: 90%;
+      color: aqua;
+      opacity: 0; /* Set initial opacity to 0 for the fade-in effect */
+      animation: fadeIn 1s ease-in-out forwards; /* Apply the fadeIn animation */
+    }
+    
+    @keyframes fadeIn {
+      from {
+        opacity: 0; /* Start from fully transparent */
+      }
+      to {
+        opacity: 1; /* Fade in to fully opaque */
+      }
+    }
+    
+      
+      @keyframes typingAnimationName {
+        0%, 16.666% {
+          width: 0;
+        }
+        16.666%, 33.333% {
+          width: 100%;
+        }
+        33.333%, 100% {
+          width: 100%;
+        }
+      }
+      
+      @keyframes colorChangeName {
+        0%, 100% {
+          color: transparent;
+        }
+        25% {
+          color: aqua;
+        }
+      }
+      
+      
+      @keyframes typingAnimationName {
+        0% {
+          width: 0;
+        }
+        20% {
+          width: 0;
+        }
+        40% {
+          width: 100%;
+        }
+        60% {
+          width: 100%;
+        }
+        80% {
+          width: 100%;
+        }
+        100% {
+          width: 100%;
+        }
+      }
+      
+      @keyframes colorChangeName {
+        0%, 100% {
+          color: transparent;
+        }
+        25% {
+          color: aqua;
+        }
+      }
+      
+      @keyframes typingAnimationName {
+        from {
+          width: 0;
+        }
+      }
+      
+      @keyframes colorChangeName {
+        0% {
+          color: transparent;
+        }
+        25% {
+          color: aqua;
+        }
+        50% {
+          color: transparent;
+        }
+        75% {
+          color: aqua;
+        }
+        100% {
+          color: transparent;
+        }
+      }    
+
+      .tagline {
+        font-size: 2vw;
+        line-height: 3vw;
+        color: #000908;
+      }
+
+      /* section 2 */
+      .section2-img {
+        width: 50%; /* Adjust the width of the image */
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        order: 0;
+        margin-right: 10px;
+        top: 0;
+        right: 50;
+        z-index: 1;
+        transition: transform 0.5s;
+         /* Place the image above the color box */ 
+      }
+     .section2-img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+        }
+    .section:nth-child(2) {
+      background: black;
+      color: white;
+      display: flex;
+      flex-direction: row-reverse;
+      
+      /* Enable vertical scrolling */
+      margin-bottom: 0;
+    }
+
+    
+
+    .color-box {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 60%; /* Adjust the width as needed */
+      height: 100%;
+      background-color: #C1D8F0;
+      
+    }
+
+    .about-heading {
+      width: 100%;
+      text-align: center;
+      font-size: 5vw;
+      font-family: Inknut Antiqua;
+      font-weight: 300;
+      line-height: 1.2;
+      word-wrap: break-word;
+      color: black;
+      white-space: nowrap; /* Add this line to prevent line breaks */
+    }
+
+    .about-content {
+        width: 80%; /* Adjust the width of the text content */
+        padding: 20px;
+        box-sizing: border-box;
+        text-align: left; /* Align text to the left */
+        order: 1;
+        transition: all 0.3s ease; /* Add a smooth transition for all properties over 0.3 seconds with ease timing function */
+      }
+      
+      /* Add hover effect for illustration purposes */
+      .about-content:hover {
+        background-color: #f0f0f0; /* Change background color on hover */
+      }
+      
+    .developer-info {
+      font-size: 4vw;
+      line-height: 1.5;
+      font-family: Kaisei HarunoUmi, Jacques Francois, Irish Grover, sans-serif;
+      color: black;
+    }
+
+    .im {
+      font-size: 5vw;
+      font-family: Kaisei HarunoUmi, Jacques Francois, Irish Grover, sans-serif;
+      color: #0961A3;
+      line-height: 1.5;
+      margin-left: 0.5cm;
+      white-space: nowrap;
+    }
+
+    .quote {
+  color: #142B3D;
+  font-size: 3vw;
+  line-height: 1.5;
+
+}
+
+   
+    .about-myself-heading {
+      text-align: center;
+      font-size: 5vw;
+      font-family: Inknut Antiqua;
+      font-weight: 300;
+      line-height: 1.2;
+      word-wrap: break-word;
+    }
+    .Phone {
+        font-size: 2.5vw;
+        color: black;
+        line-height: 3.5;
+        font-weight: 300;
+        text-align: center;
+        margin-right:35% ;
+      }
+  
+      .EmailID {
+        font-size:2.5dvw;
+        color:#0961A3;
+        white-space: nowrap;
+        
+        font-weight: 300;
+        text-align: center;
+        margin-right:30% ;
+      }
+      #skills{
+        padding: 50px 0;
+        background-color: #000000;
+    
+    .section {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        overflow: hidden;
+        background: black;
+        color: white;
+      }
+    
+.content-box1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+    opacity: 0; /* Set initial opacity to 0 for the fade-in effect */
+    animation: fadeIn 1s ease-in-out forwards; /* Apply the fadeIn animation */
+  }
+  .content-box1 h2 {
+    font-size: 4vw;
+    font-family: Inknut Antiqua;
+    font-weight: 300;
+    line-height: 1.2;
+    word-wrap: break-word;
+    margin-top: 0; /* Adjust margin-top to align heading at the top */
+    color: #0961A3; 
+transition:transform 0.5s;
+  } 
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+      
+    .box-content {
+      padding: 20px;
+      color: black;
+      font-size: 2vw;
+      transition:transform 0.5s;
+    }
+
+   /* Box 1 styling */
+.color-box1 {
+    width: 230px;
+    height: 575px;
+    left: 19px;
+    top: 40px;
+    position: absolute;
+    background: #C1D8F0;
+    overflow: hidden; /* Hide the overflow content */
+  }
+  
+  /* Add the following rule to hide the content initially */
+  .color-box1 p {
+    display: none;
+  }
+  
+  /* Add the following rule to display the content on hover */
+  .color-box1:hover p {
+    display: block;
+  }
+  
+  /* Box 2 styling */
+.color-box2 {
+    width: 230px;
+    height: 575px;
+    left: 280px;
+    top: 40px;
+    position: absolute;
+    background: #C1D8F0;
+    overflow: hidden; /* Hide the overflow content */
+  }
+  
+  /* Add the following rule to hide the content initially */
+  .color-box2 p {
+    display: none;
+  }
+  
+  /* Add the following rule to display the content on hover */
+  .color-box2:hover p {
+    display: block;
+  }
+  
+  /* Box 3 styling */
+.color-box3 {
+    width: 230px;
+    height: 575px;
+    left: 530px;
+    top: 40px;
+    position: absolute;
+    background: #C1D8F0;
+    overflow: hidden; /* Hide the overflow content */
+  }
+  
+  /* Add the following rule to hide the content initially */
+  .color-box3 p {
+    display: none;
+  }
+  
+  /* Add the following rule to display the content on hover */
+  .color-box3:hover p {
+    display: block;
+  }
+
+
+
+    .section:nth-child(2){
+        background-color: #000000;
+    }}
+
+    #work{
+        background-color: #f0f0f0;
+    }
+    .section:nth-child(4) {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+}
+
+.color-box-for-aqua {
+    width: 250px;
+    height: 380px;
+    left: 530px;
+    top: 0px;
+    position: absolute;
+    background: #C1D8F0;
+    padding: 20px;
+    overflow: hidden; /* Hide the overflow content */
+    transition: background-color 0.5s ease-in-out, border-radius 0.5s ease-in-out;
+    border-radius: 20px; /* Initial border-radius */
+  }
+  
+  /* Add the following rule to hide the content initially */
+  .color-box-for-aqua p {
+    display: none;
+  }
+  
+  /* Add the following rule to display the content on hover */
+  .color-box-for-aqua:hover {
+    background-color: #96C9FF; /* Change the background color on hover */
+    border-radius: 50px; /* Change the border-radius on hover for a different shape */
+  }
+  
+  .color-box-for-aqua:hover p {
+    display: block;
+  }
+  
+  .color-box-for-aqua:hover h2 {
+    transform: translateY(-20px); /* Move the heading up on hover */
+  }
+  
+  .color-box-for-aqua h2 {
+    color: #0961A3;
+    font-size: 2rem; /* Adjust font size */
+    margin-top: 20px; /* Add space above the heading */
+    margin-bottom: 10px; /* Add space below the heading */
+    transition: transform 0.3s ease-in-out; /* Add smooth transition effect */
+  }
+  
+  .color-box-for-aqua p {
+    color: #000000;
+    font-size: 1.5rem; /* Adjust font size */
+    line-height: 1.4; /* Add line-height for better readability */
+    margin-bottom: 0; /* Remove default margin-bottom */
+  }
+  
+  
+.aqua-image{
+    
+    padding:20px;
+    width:60%;
+    margin-left: 10%;;
+
+
+}
+.aqua-image img{
+    width:10%;
+    height:3cm;
+    margin-bottom:2cm;
+    transition: opacity 1s, transform 1s; 
+    
+}
+
+.aqua-image img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.color-box-for-rover {
+    width: 500px;
+    height: 200px;
+    right: 500px;
+    bottom: 10px;
+    position: absolute;
+    background: #C1D8F0;
+    overflow: hidden; /* Hide the overflow content */
+    transition: background-color 0.5s ease-in-out, border-radius 0.5s ease-in-out;
+    border-radius: 20px; /* Initial border-radius */
+}
+
+/* Add the following rule to hide the content initially */
+.color-box-for-rover p {
+    display: none;
+}
+
+/* Add the following rule to display the content on hover */
+.color-box-for-rover:hover {
+    background-color: #96C9FF; /* Change the background color on hover */
+    border-radius: 50px; /* Change the border-radius on hover for a different shape */
+}
+
+.color-box-for-rover:hover p {
+    display: block;
+}
+
+  
+  .color-box-for-rover h2 {
+    color: #0961A3;
+    font-size: 2.5rem; /* Adjust font size */
+    margin-top: 0;
+    margin-bottom: 10px; /* Add space below the heading */
+  }
+  
+  .color-box-for-rover p {
+    color: #000000;
+    font-size: 1.5rem; /* Adjust font size */
+    line-height: 1.8; /* Add line-height for better readability */
+    margin-bottom: 0; /* Remove default margin-bottom */
+  }
+  
+  
+.rover-image{
+    margin-left:550px;
+    padding:20px;
+    
+    
+    width:30%;
+
+}
+.rover-image img{
+    width:100%;
+    height:7cm;
+    margin-top:-20%; 
+    transition: opacity 1s, transform 1s; 
+}
+.rover-image img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+@media only screen and (max-width: 800px) {
+    .section {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .color-box-for-aqua{
+        width: 40%;
+        right:0;
+        left: auto;
+        margin-top: 10px ;
+        height: 40%;
+    }
+
+    .color-box-for-rover {
+        width: 50%;
+        right: auto;
+        left: 0;
+        margin-top: 40px auto;
+    }
+    .color-box-for-aqua p,
+    .color-box-for-rover p {
+        font-size: 1rem; /* Adjust font size for content words */
+    }
+    .rover-image {
+        margin-left: 55%;
+        margin-right: auto;
+    }
+.color-box-for-aqua h2,.color-box-for-rover h2{
+    font-size: 5vmax;
+}
+    .aqua-image img {
+        width: 50%;
+        height: 60%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+    .rover-image img {
+        width: 100%;
+        height: auto;
+        
+        left: 0%;
+        margin-top: 10px auto;
+        
+    }
+}
+
+/* 5th page style */
+.section:nth-child(5) {
+  background: black;
+      color: white;
+      display: flex;
+      flex-direction: row-reverse;
+      
+      /* Enable vertical scrolling */
+      margin-bottom: 0;
+    }
+
+    .ncc-img {
+      width: 40%; /* Adjust the width of the image */
+      height: 100%;
+      
+      
+      order: 0;
+      margin-left: 50%;
+      margin-top: 0cm;
+        right: 50;
+      z-index: 1;
+      transition: transform 0.5s;
+    }
+    .ncc-img:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+
+    .color-box-achievement {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 60%; /* Adjust the width as needed */
+      height: 100%;
+      background-color: #C1D8F0;
+      
+    }
+
+    .about-heading {
+      width: 100%;
+      text-align: center;
+      font-size: 5vw;
+      font-family: Inknut Antiqua;
+      font-weight: 300;
+      line-height: 1.2;
+      word-wrap: break-word;
+      color: black;
+      white-space: nowrap; /* Add this line to prevent line breaks */
+    }
+
+    .about-content-achievement {
+      width: 80%; /* Adjust the width of the text content */
+      padding: 20px;
+      box-sizing: border-box;
+      text-align: left; /* Align text to the left */
+      order: 1;
+    }
+
+
+    .ncc h2 {
+        font-size: 2vw;
+        font-family: Kaisei HarunoUmi, Jacques Francois, Irish Grover, sans-serif;
+        color: #0961A3;
+        line-height: 1.5;
+        white-space: nowrap;
+        overflow: hidden; /* Hide the overflow to create the sliding effect */
+        animation: slideFromLeft 1s ease-in-out; /* Apply the animation */
+      }
+      
+      @keyframes slideFromLeft {
+        from {
+          margin-left: -100%; /* Start off the screen on the left */
+        }
+        to {
+          margin-left: 0; /* Move to the original position */
+        }
+      }
+      
+ /* Initial styles for the NCC section */
+.ncc {
+    opacity: 0; /* Start with opacity 0 */
+    transform: translateY(20px); /* Start slightly below */
+    transition: opacity 1s, transform 1s; /* Apply transition to opacity and transform */
+  }
+  .ncc p{
+    color: #142B3D;
+font-size: 2vw;
+line-height: 1.5;
+  }
+  /* Apply styles when the 'active' class is present */
+  .ncc.active {
+    opacity: 1; /* Fade in when in view */
+    transform: translateY(0); /* Slide up when in view */
+  }
+ /* Initial styles for the IEEE section */
+.IEEE {
+    opacity: 0; /* Start with opacity 0 */
+    transform: translateY(20px); /* Start slightly below */
+    transition: opacity 3s, transform 3s; /* Apply transition to opacity and transform */
+}
+.IEEE h2 {
+    font-size: 2vw;
+    font-family: Kaisei HarunoUmi, Jacques Francois, Irish Grover, sans-serif;
+    color: #0961A3;
+    line-height: 1.5;
+    white-space: nowrap;
+    overflow: hidden; /* Hide the overflow to create the sliding effect */
+    animation: slideFromLeft 1s ease-in-out; /* Apply the animation */
+  }
+.IEEE p {
+    color: #142B3D;
+    font-size: 2vw;
+    line-height: 1.5;
+}
+
+/* Apply styles when the 'active' class is present */
+.IEEE.active {
+    opacity: 1; /* Fade in when in view */
+    transform: translateY(0); /* Slide up when in view */
+}
+
+
+    
+      #contact {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 70vh;
+        background-color: #000000;
+      }
+       
+      .contact-info-upper-container {
+        display: flex;
+        justify-content: center;
+        border-radius: 2rem;
+        border: rgb(53, 53, 53) 0.1rem solid;
+        border-color: rgb(163, 163, 163);
+        background: (250, 250, 250);
+        margin: 2rem auto;
+        padding: 0.5rem;
+      }
+       
+      .contact-info-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        margin: 1rem;
+      }
+       
+      .contact-info-container p {
+        font-size: larger;
+      }
+       
+      .contact-icon {
+        cursor: default;
+      }
+      .section__text__p1{
+        color: #FFFFFF;
+        font-size: 2vmax;
+       }
+       .title{
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 3vmax;
+
+       }
+       .contact-info-container img{
+        width:10%;
+       }
+      .email-icon {
+        height: 2.5rem;
+      }
+       
+      footer {
+        height: 26vh;
+        margin: 0 1rem;
+      }
+       
+      footer p {
+        text-align: center;
+        font-size: -500%;
+      }
+     /* dont use delete */
+     @media  only screen and (max-width: 767px) {
+      /* Adjustments for smaller screens (max-width: 600px) */
+  
+      .header {
+          width:80%; /* Adjust the width for smaller screens */
+          margin-left: 20%;
+          font-size: small;
+           /* Adjust the margin for smaller screens */
+      }
+  
+      h1 {
+          font-size:x-small; /* Adjust font size for smaller screens */
+      }
+  
+      /* Add any additional adjustments as needed */
+  }
+  @media only screen and (max-width: 767px) {
+      .tagline{
+         font-size: 3vw;
+             line-height: 6vw;
+             font-weight: 200;}
+     .name{
+         font-size: 4vw;
+         white-space: nowrap;
+         margin-left: 10%;
+     
+     }
+     .name2{
+         font-size: 5vw;
+         font-weight: 800;
+         white-space: nowrap;
+     }
+      }
+      @media only screen and (max-width: 767px) {
+          .about-heading, .about-myself-heading {
+           font-size: 5vw;
+           line-height: 6vw;
+         }
+         .section:nth-child(2) {
+           flex-direction: column; /* Stack image and text on small screens */
+         }
+         .about-content{
+           margin-top: 10%;
+           font-size: 4vw;
+         }
+       .im{
+           margin-left: 5%;
+       }
+       
+         .section2-img {
+           width: 70%;
+           margin-left: 30%; /* Remove the right margin on smaller screens */
+         }
+         .quote{
+           font-size: 3vw;
+           line-height: 4vw;
+   
+         }
+         .Phone {
+           font-size: 2.5vw;
+           color: black;
+           line-height: 3.5;
+           font-weight: 300;
+           text-align: center;
+           margin-right:35% ;
+         }
+     
+         .EmailID {
+           font-size:2.5dvw;
+           color:#0961A3;
+           line-height: 1.5;
+           font-weight: 300;
+           text-align: center;
+           margin-right:35% ;
+     
+         }}
+         @media only screen and (max-width: 767px) {
+          /* Adjustments for smaller screens (max-width: 767px) */
+      #skills{.size{
+          width: 100%;}
+      
+          .color-box1,
+          .color-box2,
+          .color-box3 {
+              width: 60%; /* Adjust width for smaller screens */
+              left: 20%; /* Center the color boxes horizontally */
+              margin-top: -200px;
+              
+               /* Add margin to create space between color boxes */
+          }
+      
+          .color-box2 {
+              margin-top: 200px; /* Add margin to create space between color-box1 and color-box2 */
+          }
+      
+          .color-box3 {
+              margin-top: -10px; /* Add margin to create space between color-box2 and color-box3 */
+          }
+         
+      
+          .color-box1 p,
+          .color-box2 p,
+          .color-box3 p {
+              display: block; /* Show content by default for smaller screens */
+          }
+      
+          .section {
+              height: auto; /* Adjust height automatically based on content */
+          }}
+      }
+      @media only screen and (max-width: 767px) {
+          .section {
+              display: flex;
+              flex-direction: column;
+              
+          }
+      
+          .color-box-for-aqua{
+              width: 40%;
+              right:0;
+              left: auto;
+              margin-top: 10px ;
+              height: 40%;
+          }
+      
+          .color-box-for-rover {
+              width: 50%;
+              right: auto;
+              left: 0;
+              margin-top: 40px auto;
+              height: 40%;
+          }
+          .color-box-for-aqua p,
+          .color-box-for-rover p {
+              font: size 2px;; /* Adjust font size for content words */
+          }
+          .rover-image {
+              margin-left: 55%;
+              height: 70%;
+              margin-top: 30%;
+          }
+      .color-box-for-aqua h2,.color-box-for-rover h2{
+          font-size: 5vmax;
+      }
+          .aqua-image img {
+              width: 70%;
+              height: 60%;
+              margin-bottom: 70px;
+              margin-left: -70px;
+          }
+          .rover-image img {
+              width: 100%;
+              
+              
+              left: 0%;
+              margin-top: -900px ;
+              
+          }
+      }
+      @media only screen and (max-width: 767px) {
+          .contact-info-container {
+              text-align: center;
+               /* Center text for smaller screens */
+          }
+      }
+  
+      @media only screen and (min-width:1440px){
+          #skills{
+              padding: 50px 0;
+          background-color: #000000;
+      
+      .section {
+          width: 100%;
+          height: 100vh;
+          position: relative;
+          overflow: hidden;
+          background: black;
+          color: white;
+        }
+      
+  .content-box1 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      z-index: 1;
+      opacity: 0; /* Set initial opacity to 0 for the fade-in effect */
+      animation: fadeIn 1s ease-in-out forwards; /* Apply the fadeIn animation */
+    }
+    .content-box1 h2 {
+      font-size: 4vw;
+      font-family: Inknut Antiqua;
+      font-weight: 300;
+      line-height: 1.2;
+      word-wrap: break-word;
+      margin-top: 0; /* Adjust margin-top to align heading at the top */
+      color: #0961A3; 
+  transition:transform 0.5s;
+    } 
+    
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    
+        
+      .box-content {
+        padding: 20px;
+        color: black;
+        font-size: 2vw;
+        transition:transform 0.5s;
+      }
+  
+     /* Box 1 styling */
+  .color-box1 {
+      width: 400px;
+      height: 575px;
+      left: 39px;
+      top: 150px;
+      position: absolute;
+      background: #C1D8F0;
+      overflow: hidden; /* Hide the overflow content */
+    }
+    
+    /* Add the following rule to hide the content initially */
+    .color-box1 p {
+      display: none;
+    }
+    
+    /* Add the following rule to display the content on hover */
+    .color-box1:hover p {
+      display: block;
+    }
+    
+    /* Box 2 styling */
+  .color-box2 {
+      width: 400px;
+      height: 575px;
+      left: 520px;
+      top: 150px;
+      position: absolute;
+      background: #C1D8F0;
+      overflow: hidden; /* Hide the overflow content */
+    }
+    
+    /* Add the following rule to hide the content initially */
+    .color-box2 p {
+      display: none;
+    }
+    
+    /* Add the following rule to display the content on hover */
+    .color-box2:hover p {
+      display: block;
+    }
+    
+    /* Box 3 styling */
+  .color-box3 {
+      width: 400px;
+      height: 575px;
+      left: 1000px;
+      top: 150px;
+      position: absolute;
+      background: #C1D8F0;
+      overflow: hidden; /* Hide the overflow content */
+    }
+    
+    /* Add the following rule to hide the content initially */
+    .color-box3 p {
+      display: none;
+    }
+    
+    /* Add the following rule to display the content on hover */
+    .color-box3:hover p {
+      display: block;
+    }
+  
+          }
+      }
+  
+      @media only screen and (min-width:1440px){
+          .color-box-for-aqua {
+              width: 700px;
+              height: 380px;
+              left: 630px;
+              top: 0px;
+              position: absolute;
+              background: #C1D8F0;
+              padding: 20px;
+              overflow: hidden; /* Hide the overflow content */
+              transition: background-color 0.5s ease-in-out, border-radius 0.5s ease-in-out;
+              border-radius: 20px; /* Initial border-radius */
+            }
+            
+            /* Add the following rule to hide the content initially */
+            .color-box-for-aqua p {
+              display: none;
+            }
+            
+            /* Add the following rule to display the content on hover */
+            .color-box-for-aqua:hover {
+              background-color: #96C9FF; /* Change the background color on hover */
+              border-radius: 50px; /* Change the border-radius on hover for a different shape */
+            }
+            
+            .color-box-for-aqua:hover p {
+              display: block;
+            }
+            
+            .color-box-for-aqua:hover h2 {
+              transform: translateY(-20px); /* Move the heading up on hover */
+            }
+            
+            .color-box-for-aqua h2 {
+              color: #0961A3;
+              font-size: 4rem; /* Adjust font size */
+              margin-top: 20px; /* Add space above the heading */
+              margin-bottom: 10px; /* Add space below the heading */
+              transition: transform 0.3s ease-in-out; /* Add smooth transition effect */
+            }
+            
+            .color-box-for-aqua p {
+              color: #000000;
+              font-size: 2rem; /* Adjust font size */
+              line-height: 1.4; /* Add line-height for better readability */
+              margin-bottom: 0; /* Remove default margin-bottom */
+            }
+            
+            
+          .aqua-image{
+              
+              padding:20px;
+              width:80%;
+              margin-left: 0%;
+          
+          
+          }
+          .aqua-image img{
+              width:50%;
+              height:10cm;
+              margin-bottom:2cm;
+              transition: opacity 1s, transform 1s; 
+              
+          }
+          
+          .aqua-image img:hover{
+              cursor: pointer;
+              transform: scale(1.1);
+          }
+          .color-box-for-rover {
+              width: 700px;
+              height: 380px;
+              right: 700px;
+              bottom: 10px;
+              position: absolute;
+              background: #C1D8F0;
+              overflow: hidden; /* Hide the overflow content */
+              transition: background-color 0.5s ease-in-out, border-radius 0.5s ease-in-out;
+              border-radius: 20px; /* Initial border-radius */
+  
+          }
+          .color-box-for-rover p {
+              display: none;
+          }
+          
+          /* Add the following rule to display the content on hover */
+          .color-box-for-rover:hover {
+              background-color: #96C9FF; /* Change the background color on hover */
+              border-radius: 50px; /* Change the border-radius on hover for a different shape */
+          }
+          
+          .color-box-for-rover:hover p {
+              display: block;
+          }
+          
+            
+            .color-box-for-rover h2 {
+              color: #0961A3;
+              font-size: 4rem; /* Adjust font size */
+              margin-top: 0;
+              margin-bottom: 10px; /* Add space below the heading */
+            }
+            
+            .color-box-for-rover p {
+              color: #000000;
+              font-size: 1.8rem; /* Adjust font size */
+              line-height: 1.8; /* Add line-height for better readability */
+              margin-bottom: 0; /* Remove default margin-bottom */
+            }
+            
+            
+          .rover-image{
+              margin-left:850px;
+              padding:20px;
+              width:30%;
+          margin-bottom:10%;
+          }
+          .rover-image img{
+              width:100%;
+              height:7cm;
+              
+              transition: opacity 1s, transform 1s; 
+          }
+          .rover-image img:hover{
+              cursor: pointer;
+              transform: scale(1.1);
+          }
+      }
+  
+      @media only screen and (min-width:1024px) and (max-width: 1439px){
+          #skills{
+              padding: 50px 0;
+          background-color: #000000;
+      
+      .section {
+          width: 100%;
+          height: 100vh;
+          position: relative;
+          overflow: hidden;
+          background: black;
+          color: white;
+        }
+      
+  .content-box1 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      z-index: 1;
+      opacity: 0; /* Set initial opacity to 0 for the fade-in effect */
+      animation: fadeIn 1s ease-in-out forwards; /* Apply the fadeIn animation */
+    }
+    .content-box1 h2 {
+      font-size: 4vw;
+      font-family: Inknut Antiqua;
+      font-weight: 300;
+      line-height: 1.2;
+      word-wrap: break-word;
+      margin-top: 0; /* Adjust margin-top to align heading at the top */
+      color: #0961A3; 
+  transition:transform 0.5s;
+    } 
+    
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    
+        
+      .box-content {
+        padding: 20px;
+        color: black;
+        font-size: 2vw;
+        transition:transform 0.5s;
+      }
+  
+     /* Box 1 styling */
+  .color-box1 {
+      width: 300px;
+      height: 575px;
+      left: 29px;
+      top: 150px;
+      position: absolute;
+      background: #C1D8F0;
+      overflow: hidden; /* Hide the overflow content */
+    }
+    
+    /* Add the following rule to hide the content initially */
+    .color-box1 p {
+      display: none;
+    }
+    
+    /* Add the following rule to display the content on hover */
+    .color-box1:hover p {
+      display: block;
+    }
+    
+    /* Box 2 styling */
+  .color-box2 {
+      width: 300px;
+      height: 575px;
+      left: 370px;
+      top: 150px;
+      position: absolute;
+      background: #C1D8F0;
+      overflow: hidden; /* Hide the overflow content */
+    }
+    
+    /* Add the following rule to hide the content initially */
+    .color-box2 p {
+      display: none;
+    }
+    
+    /* Add the following rule to display the content on hover */
+    .color-box2:hover p {
+      display: block;
+    }
+    
+    /* Box 3 styling */
+  .color-box3 {
+      width: 300px;
+      height: 575px;
+      left: 710px;
+      top: 150px;
+      position: absolute;
+      background: #C1D8F0;
+      overflow: hidden; /* Hide the overflow content */
+    }
+    
+    /* Add the following rule to hide the content initially */
+    .color-box3 p {
+      display: none;
+    }
+    
+    /* Add the following rule to display the content on hover */
+    .color-box3:hover p {
+      display: block;
+    }
+  
+          }
+      }
+  
+      @media only screen and (min-width: 1024px) and (max-width: 1439px){
+          .color-box-for-aqua {
+              width: 500px;
+              height: 240px;
+              left: 480px;
+              top: 0px;
+              position: absolute;
+              background: #C1D8F0;
+              padding: 20px;
+              overflow: hidden; /* Hide the overflow content */
+              transition: background-color 0.5s ease-in-out, border-radius 0.5s ease-in-out;
+              border-radius: 20px; /* Initial border-radius */
+            }
+            
+            /* Add the following rule to hide the content initially */
+            .color-box-for-aqua p {
+              display: none;
+            }
+            
+            /* Add the following rule to display the content on hover */
+            .color-box-for-aqua:hover {
+              background-color: #96C9FF; /* Change the background color on hover */
+              border-radius: 50px; /* Change the border-radius on hover for a different shape */
+            }
+            
+            .color-box-for-aqua:hover p {
+              display: block;
+            }
+            
+            .color-box-for-aqua:hover h2 {
+              transform: translateY(-20px); /* Move the heading up on hover */
+            }
+            
+            .color-box-for-aqua h2 {
+              color: #0961A3;
+              font-size: 2rem; /* Adjust font size */
+              margin-top: 20px; /* Add space above the heading */
+              margin-bottom: 10px; /* Add space below the heading */
+              transition: transform 0.3s ease-in-out; /* Add smooth transition effect */
+            }
+            
+            .color-box-for-aqua p {
+              color: #000000;
+              font-size: 1.5rem; /* Adjust font size */
+              line-height: 1.4; /* Add line-height for better readability */
+              margin-bottom: 0; /* Remove default margin-bottom */
+            }
+            
+            
+          .aqua-image{
+              
+              padding:20px;
+              width:70%;
+              margin-left: 0%;
+          
+          
+          }
+          .aqua-image img{
+              width:50%;
+              height:7cm;
+              margin-bottom:2cm;
+              transition: opacity 1s, transform 1s; 
+              
+          }
+          
+          .aqua-image img:hover{
+              cursor: pointer;
+              transform: scale(1.1);
+          }
+          .color-box-for-rover {
+              width: 500px;
+              height: 240px;
+              right: 510px;
+              bottom: 30px;
+              position: absolute;
+              background: #C1D8F0;
+              overflow: hidden; /* Hide the overflow content */
+              transition: background-color 0.5s ease-in-out, border-radius 0.5s ease-in-out;
+              border-radius: 20px; /* Initial border-radius */
+  
+          }
+          .color-box-for-rover p {
+              display: none;
+          }
+          
+          /* Add the following rule to display the content on hover */
+          .color-box-for-rover:hover {
+              background-color: #96C9FF; /* Change the background color on hover */
+              border-radius: 50px; /* Change the border-radius on hover for a different shape */
+          }
+          
+          .color-box-for-rover:hover p {
+              display: block;
+          }
+          
+            
+            .color-box-for-rover h2 {
+              color: #0961A3;
+              font-size: 2rem; /* Adjust font size */
+              margin-top: 0;
+              margin-bottom: 10px; /* Add space below the heading */
+            }
+            
+            .color-box-for-rover p {
+              color: #000000;
+              font-size: 1.5rem; /* Adjust font size */
+              line-height: 1.8; /* Add line-height for better readability */
+              margin-bottom: 0; /* Remove default margin-bottom */
+            }
+            
+            
+          .rover-image{
+              margin-left:550px;
+              padding:20px;
+              width:50%;
+              
+          }
+          .rover-image img{
+              width:50%;
+              margin-bottom: 200px;
+              
+              transition: opacity 1s, transform 1s; 
+          }
+          .rover-image img:hover{
+              cursor: pointer;
+              transform: scale(1.1);
+          }
+      }
+  
+      

@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<title>
+				ICFOSS - 
+			        Projects Details
+			</title>
+
+			<!-- Stylesheets -->
+			<link href="https://icfoss.in/vendor/front/css/bootstrap.css" rel="stylesheet">
+
+<link href="https://icfoss.in/vendor/front/css/style.css" rel="stylesheet">
+<link href="https://icfoss.in/vendor/front/css/slick.css" rel="stylesheet">
+<link href="https://icfoss.in/vendor/front/css/responsive.css" rel="stylesheet">
+
+<link rel="shortcut icon" href="https://icfoss.in/vendor/front/images/favicon.png" type="image/x-icon">
+<link rel="icon" href="https://icfoss.in/vendor/front/images/favicon.png" type="image/x-icon">						
+			<!-- Responsive -->
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+			<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+			<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+		</head>
+
+		<body class="icfoss_index">
+			<div class="page-wrapper">
+			 	
+			    <!-- Preloader -->
+			    <div class="preloader"></div>
+
+			    <!-- Main Header-->
+<header class="main-header">
+	<!--Header-Upper-->
+	<div class="header-upper">
+		<div class="auto-container">
+	    	<div class="clearfix">
+	        	
+	        	<div class="pull-left logo-box">
+	        		<div title="Government of Kerala" class="gok_logo">
+                    	<img src="https://icfoss.in/vendor/front/images/kerala_govt_logo.svg">
+                    </div>
+	            	<div title="Government of Kerala" class="gok_logo_sm">
+                    	<img src="https://icfoss.in/vendor/front/images/kerala_govt_logo.svg">
+                    </div>
+	            	<div class="logo">
+	            		<a href="https://icfoss.in/home" title="International Centre for Free and Open Source Software"><img style="margin-top:-25px;" src="https://icfoss.in/vendor/front/images/logo.svg" alt="icfoss" title="International Centre for Free and Open Source Software"></a>
+	            	</div>	            	
+                    <!-- Main Menu -->
+					<nav class="main-menu navbar-expand-md">
+						<div class="navbar-header">
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+					</nav>
+	            </div>
+	           	
+	           	<div class="nav-outer clearfix">
+	            
+					<!-- Main Menu -->
+					<nav class="main-menu navbar-expand-md">
+						<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
+							<ul class="navigation clearfix">
+																								<li   ><a href="https://icfoss.in/home">Home</a>
+								</li>
+								<li class="dropdown "><a href="#">ICFOSS</a>
+									<ul>
+																					<li><a href="https://icfoss.in/about-us">About Us</a></li>
+																					<li><a href="https://icfoss.in/pages/Governing">Governing Body</a></li>
+																					<li><a href="https://icfoss.in/pages/Executive">Executive Committee</a></li>
+																					<li><a href="https://icfoss.in/pages/RTI">RTI</a></li>
+																					<li><a href="https://icfoss.in/projects">Projects</a></li>
+																					<li><a href="https://icfoss.in/trainings">FOSS Training</a></li>
+																					<li><a href="https://icfoss.in/events">Events</a></li>
+																					<li><a href="https://icfoss.in/icfoss-news">News</a></li>
+																					<li><a href="https://icfoss.in/publications">Publications</a></li>
+																					<li><a href="https://icfoss.in/teams">Our Team</a></li>
+																				
+									</ul>
+								</li>
+								<li class="dropdown "><a href="#">R&D</a>
+									<ul>
+																					<li><a href="https://icfoss.in/research">Research</a></li>
+																					<li><a href="https://icfoss.in/capacity-building">Capacity Building</a></li>
+																					<li><a href="https://icfoss.in/entrepreneurship">Entrepreneurship</a></li>
+																					<li><a href="https://icfoss.in/general-programs">General Programs</a></li>
+																			</ul>
+								</li>
+
+								<li  ><a href="https://icfoss.in/services">Services</a>
+								</li>
+
+								<li class="dropdown "><a href="#">Gallery</a>
+									<ul>
+																					<li><a href="https://icfoss.in/videos-gallery">Videos Gallery</a></li>
+																					<li><a href="https://icfoss.in/images-gallery">Image Gallery</a></li>
+																			</ul>
+								</li>
+								<li ><a href="https://icfoss.in/careers">Career</a>
+								</li>
+								<li ><a href="https://icfoss.in/contact">Contact us</a>
+								</li>
+																
+								<li class="sign-in-sm"> <a href="https://icfoss.in/login">SignIn</a></li>
+								<li class="search-sm"> <a href="https://icfoss.in/search"><span class="fa fa-search"></span> Search</a></li>
+							</ul>
+						</div>
+					</nav>
+					
+					
+					<!--Button Box-->
+					<div class="button-box">
+						
+													<a href="https://icfoss.in/login" class="theme-btn btn-style-one">Sign In</a>
+												
+					</div>
+					
+					<!--Search Box Outer-->
+					<div class="search-box-outer">
+						<div class="dropdown">
+							<a href="https://icfoss.in/search" title="Search" class="search-box-btn"><span class="fa fa-search"></span></a>
+						</div>
+					</div>
+					
+				</div>
+	           
+	        </div>
+	    </div>
+	</div>
+	<!--End Header Upper-->
+
+	<!--Sticky Header-->
+	<div class="sticky-header">
+		<div class="auto-container clearfix">
+			<div class="logo-box pull-left">
+				<div title="Government of Kerala" class="gok_logo">
+	        		<img src="https://icfoss.in/vendor/front/images/kerala_govt_logo.svg">
+	        	</div>
+		    	<!--Logo-->
+		    	<div class="logo pull-left">
+		        	<a href="https://icfoss.in/home" class="img-responsive" title="International Centre for Free and Open Source Software"><img style="margin-top:-25px;" src="https://icfoss.in/vendor/front/images/logo.svg" alt="icfoss" ></a>
+		        </div>		        
+        	</div>
+
+	        <div title="Government of Kerala" class="gok_logo_sm">
+        		<img src="https://icfoss.in/vendor/front/images/kerala_govt_logo.svg">
+        	</div>
+	        
+	        <!--Right Col-->
+	        <div class="right-col pull-right">
+	        	<!-- Main Menu -->
+	            <nav class="main-menu navbar-expand-md">
+	                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                </button>
+	                
+	                <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent1">
+	                    <ul class="navigation clearfix">
+	                    	<li   ><a href="https://icfoss.in/home">Home</a>
+								</li>
+							<li class="dropdown "><a href="#">ICFOSS</a>
+								<ul>
+																			<li><a href="https://icfoss.in/about-us">About Us</a></li>
+																			<li><a href="https://icfoss.in/pages/Governing">Governing Body</a></li>
+																			<li><a href="https://icfoss.in/pages/Executive">Executive Committee</a></li>
+																			<li><a href="https://icfoss.in/pages/RTI">RTI</a></li>
+																			<li><a href="https://icfoss.in/projects">Projects</a></li>
+																			<li><a href="https://icfoss.in/trainings">FOSS Training</a></li>
+																			<li><a href="https://icfoss.in/events">Events</a></li>
+																			<li><a href="https://icfoss.in/icfoss-news">News</a></li>
+																			<li><a href="https://icfoss.in/publications">Publications</a></li>
+																			<li><a href="https://icfoss.in/teams">Our Team</a></li>
+																		
+								</ul>
+							</li>
+							<li class="dropdown "><a href="#">R&D</a>
+								<ul>
+																			<li><a href="https://icfoss.in/research">Research</a></li>
+																			<li><a href="https://icfoss.in/capacity-building">Capacity Building</a></li>
+																			<li><a href="https://icfoss.in/entrepreneurship">Entrepreneurship</a></li>
+																			<li><a href="https://icfoss.in/general-programs">General Programs</a></li>
+																	</ul>
+							</li>
+							<li  ><a href="https://icfoss.in/services">Services</a>
+								</li>
+								
+							</li>
+							<li class="dropdown "><a href="#">Gallery</a>
+								<ul>
+																			<li><a href="https://icfoss.in/videos-gallery">Videos Gallery</a></li>
+																			<li><a href="https://icfoss.in/images-gallery">Image Gallery</a></li>
+																	</ul>
+							</li>
+							<li ><a href="https://icfoss.in/careers">Career</a>
+								</li>
+							<li ><a href="https://icfoss.in/contact">Contact us</a>
+								</li>
+								
+							</li>
+													</ul>
+	                </div>
+	            </nav><!-- Main Menu End-->
+	            
+
+	            <!--Button Box-->
+				<div class="button-box">
+											<a href="https://icfoss.in/login" class="theme-btn btn-style-one">Sign In</a>
+									</div>
+
+
+	        </div>
+	        
+	    </div>
+	</div>
+	<!--End Sticky Header-->
+</header>
+<!--End Main Header -->
+			    <div class="search-content">
+						<!--Page Title-->
+    <section class="page-title" style="background-image:url(https://icfoss.in/vendor/front/images/background/6.jpg)">
+    	<div class="auto-container">
+        	<h1 class="int-search-title">AquaLoRa: Transforming Aquaponics with LoRaWAN Technology</h1>
+            <ul class="page-breadcrumb">
+            	<li><a href="https://icfoss.in/home">home</a></li>
+               	<li><a href="https://icfoss.in/projects">Projects</a></li>
+                <li>AquaLoRa: Transforming Aquaponics with LoRaWAN Technology</li>
+            </ul>
+        </div>
+    </section>
+    <!--End Page Title-->
+
+	<!--project Single Section-->
+	<section class="project-single-section">
+		<div class="auto-container">
+			<div class="row clearfix">
+			
+				<!--Image Column-->
+				<div class="image-column col-lg-6 col-md-12 col-sm-12">
+					<div class="inner-column">
+						<div class="image">
+							<img  src="https://icfoss.in/get-image/projects/1694584153.jpg"  alt="" />
+						</div>
+						
+						
+					</div>
+				</div>
+				
+				<!--Content Column-->
+				<div class="content-column col-lg-12 col-md-12 col-sm-12">
+					<div class="inner-column">
+						<h2>IoT</h2>
+						<div class="title">LoRaWAN</div>
+						<div class="text int-search-content">
+							<p><span style="color: rgb(51, 51, 51); font-family: Lato, &quot;Noto Sans JP&quot;, &quot;ヒラギノ角ゴ ProN&quot;, &quot;Hiragino Kaku Gothic ProN&quot;, メイリオ, Meiryo, &quot;ＭＳ Ｐゴシック&quot;, &quot;MS PGothic&quot;, sans-serif; font-size: 16px;">An aquaponic system is a remarkable fusion of aquaculture and hydroponics, creating a bio-integrated environment that fosters mutual growth for aquatic life and plants. It hinges on a symbiotic relationship where fish in tanks produce ammonia-rich excretions, potentially hazardous to their well-being. However, the intervention of nitrifying bacteria transforms this ammonia into nitrites and nitrates, serving as essential nutrients for plants, thus establishing a harmonious synergy between the two components. The objective of our project is to employ Internet of Things (IoT) technology for real-time monitoring and control of aquaponics. Our system comprises sensors that meticulously measure pH levels, temperature, oxygen concentration, and electrical conductivity (EC). These sensors transmit data to a remote database via an STM32-based microcontroller, leveraging LoRaWAN technology for communication, renowned for its low power consumption, even allowing for solar-powered operation. The recorded parameters fall within acceptable ranges, ensuring the healthy growth of both aquatic life and hydroponic plants. Additionally, the system monitors water consumption and operates autonomously through four integral units: Data Acquisition, Data Transmission, Decision Making, and System Rectification, collectively ensuring optimal conditions for aquaponic success.</span><br></p>
+						</div>
+						<a href="https://gitlab.com/icfoss/OpenIoT/LoRaWAN_Based_Smart_Aquaponics_System" class="theme-btn btn-style-five"><i class="fa fa-gitlab"></i>
+Gitlab Repository</a>
+						<a href="#express_interest" data-toggle="modal" class="theme-btn btn-style-five"><i class="fa fa-heart interest-express"></i> Express Interest</a>
+
+						<!--  Modal -->
+						<div class="modal" id="express_interest">
+						  <div class="modal-dialog">
+						    <div class="modal-content">
+
+						      <!-- Modal Header -->
+						      <div class="modal-header">
+						        <h4 class="modal-title">Express Interest</h4>
+						        <button type="button" class="close" data-dismiss="modal">&times;</button>
+						      </div>
+						      <form method="POST" action="https://icfoss.in/project-details/56" accept-charset="UTF-8" id="add-project-interest-form"><input name="_token" type="hidden" value="gMZiVY0AZ15z1rZiKI6UvLVTNcX2eG4zVlZbKIoL">
+						      <input name="id" type="hidden" value="56">
+						      <!-- Modal body -->
+						      <div class="modal-body">
+						        <div class="row">
+						        	<div class="col-md-12">
+                                
+										<div class="form-group">
+											<input class="form-control" type="text" name="name" placeholder="Your Name" required="">
+										</div>
+
+										<div class="form-group">
+											<input class="form-control" type="email" name="email" placeholder="Email address" required="">
+										</div>
+
+										<div class="form-group">
+											<input class="form-control" type="text" name="phone" placeholder="Phone" required="">
+										</div>
+
+										<div class="form-group">
+											<textarea class="form-control" name="message" placeholder="Message"></textarea>
+										</div>
+
+						        	</div>
+						        </div>
+						      </div>
+
+						      <!-- Modal footer -->
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+						        <button type="submit" class="btn btn-success theme-btn">Submit</button>
+						      </div>
+						      </form>
+						    </div>
+						  </div>
+						</div>
+						<!--  Modal -->
+
+						<ul class="porfolio-info">
+							<li><span>tags:</span>
+															<a href="#">IoT</a>
+														</li>
+						</ul>
+						<ul class="portfolio-share">
+							<li><span class="icon fa fa-share-alt"></span>Share This</li>
+						</ul>
+					</div>
+
+					<!--  updates -->
+
+					<hr/>
+
+					<div class="project_updates">
+						<h3>Project Updates</h3>
+
+						<div id="accordion">
+													</div>
+					</div>
+					<!--  end updates -->
+					
+				</div>
+				
+			</div>
+			
+			<!--New Posts-->
+			<div class="new-posts clearfix">
+				<a href=" https://icfoss.in/project-details/55 " class="prev-post"><span class="icon fa fa-caret-left"></span> prev project</a>
+				<a href=" https://icfoss.in/project-details/57 " class="next-post">next project <span class="icon fa fa-caret-right"></span></a>
+			</div>
+			
+		</div>
+	</section>
+	<!--End Portfolio Single Section-->
+	
+	<!--Related Projects-->
+	<div class="related-posts">
+		<div class="auto-container">
+			
+			<!--Sec Title-->
+			<div class="sec-title centered">
+				<h2>Related Projects</h2>
+				<div class="title-text">Automate & Simplify The Whole Process</div>
+			</div>
+			<div class="row clearfix">
+				
+				<!-- Block-->
+									<!--News Block Five-->
+					<div class="news-block-five style-two col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image">
+								<a href="https://icfoss.in/project-details/51"><img  src="https://icfoss.in/get-image/projects/1694173273.png"  alt="" /></a>
+							</div>
+							<div class="lower-content">
+								
+								<h2><a href="https://icfoss.in/project-details/51">IoT Enabled Panchayath</a></h2>
+								<div class="text">&lt;p&gt;
+&lt;span style=&quot;color: rgb(55, 65, 81); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px;&quot;&gt;
+
+
+This introduces a groundbreaking project that is set to transform local governance in Kattakkada, as it pioneers the integration of Internet of Things (IoT) technology across various sectors within the Pancha﻿yat. This ambitious initiative encompasses agriculture, water management, health, animal husbandry, and air quality management, harnessing IoT devices and data analytics to enhance the quality of life for residents. The benefits are far-reaching, with efficient irrigation and higher crop yields in agriculture, optimal water distribution in water management, improved healthcare services through remote patient monitoring, healthier livestock in animal husbandry, and enhanced environmental conditions through air quality monitoring. Spearheaded by the Center for Development of Open Hardware Lab (CDOH) team, this Proof of Concept (PoC) project strategically deploys gateways for seamless data collection, enabling real-time insights and promising to set new standards for participatory governance and resource allocation in the modern era of technological advancement. Kattakkada is at the forefront of this transformative endeavor, showcasing the potential of IoT-enabled local governance to elevate living standards and resource utilization for its inhabitants.
+
+
+&lt;/span&gt;
+&lt;/p&gt;</div>
+								<a class="read-more" href="https://icfoss.in/project-details/51">Read more</a>
+							</div>
+						</div>
+					</div>
+									<!--News Block Five-->
+					<div class="news-block-five style-two col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image">
+								<a href="https://icfoss.in/project-details/53"><img  src="https://icfoss.in/get-image/projects/1694583798.jpg"  alt="" /></a>
+							</div>
+							<div class="lower-content">
+								
+								<h2><a href="https://icfoss.in/project-details/53">ARG Station: Empowering Efficiency with LoRaWAN Technology</a></h2>
+								<div class="text">&lt;p&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Lato, &amp;quot;Noto Sans JP&amp;quot;, &amp;quot;ヒラギノ角ゴ ProN&amp;quot;, &amp;quot;Hiragino Kaku Gothic ProN&amp;quot;, メイリオ, Meiryo, &amp;quot;ＭＳ Ｐゴシック&amp;quot;, &amp;quot;MS PGothic&amp;quot;, sans-serif; font-size: 16px;&quot;&gt;The Rain Gauge Station is equipped with LoRaWAN connectivity, facilitating seamless data transmission at regular intervals to the centralized monitoring system over extended distances. This technology offers several advantages, including low power consumption, an expansive communication range, and adaptability to various environmental conditions. The entire system is powered by solar energy, ensuring sustainability and efficiency.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</div>
+								<a class="read-more" href="https://icfoss.in/project-details/53">Read more</a>
+							</div>
+						</div>
+					</div>
+									<!--News Block Five-->
+					<div class="news-block-five style-two col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image">
+								<a href="https://icfoss.in/project-details/54"><img  src="https://icfoss.in/get-image/projects/1694583955.jpeg"  alt="" /></a>
+							</div>
+							<div class="lower-content">
+								
+								<h2><a href="https://icfoss.in/project-details/54">SunGuard: LoRaWAN-Enabled ARG Station with Integrated UV Sensor</a></h2>
+								<div class="text">&lt;p&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Lato, &amp;quot;Noto Sans JP&amp;quot;, &amp;quot;ヒラギノ角ゴ ProN&amp;quot;, &amp;quot;Hiragino Kaku Gothic ProN&amp;quot;, メイリオ, Meiryo, &amp;quot;ＭＳ Ｐゴシック&amp;quot;, &amp;quot;MS PGothic&amp;quot;, sans-serif; font-size: 16px;&quot;&gt;A rain gauge station equipped with a UV (Ultraviolet) sensor is a weather monitoring system designed to measure and record both precipitation (rainfall) and the intensity of ultraviolet radiation from the sun. It is helpful for various applications, including weather forecasting, environmental monitoring, and agriculture.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Lato, &amp;quot;Noto Sans JP&amp;quot;, &amp;quot;ヒラギノ角ゴ ProN&amp;quot;, &amp;quot;Hiragino Kaku Gothic ProN&amp;quot;, メイリオ, Meiryo, &amp;quot;ＭＳ Ｐゴシック&amp;quot;, &amp;quot;MS PGothic&amp;quot;, sans-serif; font-size: 16px;&quot;&gt;It offers the advantage of long-range, low-power communication, making it a cost-effective and efficient solution for remote environmental monitoring and weather data collection.&lt;/span&gt;&lt;/p&gt;</div>
+								<a class="read-more" href="https://icfoss.in/project-details/54">Read more</a>
+							</div>
+						</div>
+					</div>
+									<!--News Block Five-->
+					<div class="news-block-five style-two col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image">
+								<a href="https://icfoss.in/project-details/57"><img  src="https://icfoss.in/get-image/projects/1694584219.jpg"  alt="" /></a>
+							</div>
+							<div class="lower-content">
+								
+								<h2><a href="https://icfoss.in/project-details/57">LoRaWAN-Enabled Air Quality Monitoring with Wio Terminal</a></h2>
+								<div class="text">&lt;p&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Lato, &amp;quot;Noto Sans JP&amp;quot;, &amp;quot;ヒラギノ角ゴ ProN&amp;quot;, &amp;quot;Hiragino Kaku Gothic ProN&amp;quot;, メイリオ, Meiryo, &amp;quot;ＭＳ Ｐゴシック&amp;quot;, &amp;quot;MS PGothic&amp;quot;, sans-serif; font-size: 16px;&quot;&gt;Indoor air pollution poses a significant health risk, particularly in developing countries where it&#039;s a prevalent concern. A primary contributor to indoor air pollution is the combustion of coal and biomass materials like wood, charcoal, dung, and crop residues for cooking and heating purposes. This practice leads to the accumulation of high concentrations of particulate matter, resulting in severe health issues and even fatalities. Moreover, indoor workplaces, such as offices, hospitals, schools, and childcare facilities, can also be affected by indoor air quality problems. Despite the absence of hazardous substances or high-noise environments, employees in these spaces may experience symptoms associated with sick building syndrome, such as eye irritation, throat discomfort, nasal congestion, and headaches, often without a single identifiable cause. To address these concerns, our system incorporates an air quality monitoring device that analyzes VOCs (Volatile Organic Compounds), NO2 (Nitrogen Dioxide), CO (Carbon Monoxide), temperature, humidity, and ethyl alcohol levels in the indoor environment. These gases are continuously monitored, with data transmitted at 15-minute intervals and displayed on the device, offering a comprehensive solution for assessing and improving indoor air quality.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</div>
+								<a class="read-more" href="https://icfoss.in/project-details/57">Read more</a>
+							</div>
+						</div>
+					</div>
+									<!--News Block Five-->
+					<div class="news-block-five style-two col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image">
+								<a href="https://icfoss.in/project-details/58"><img  src="https://icfoss.in/get-image/projects/1694584298.jpeg"  alt="" /></a>
+							</div>
+							<div class="lower-content">
+								
+								<h2><a href="https://icfoss.in/project-details/58">Mapping the Future: Introducing LoRaWAN Range Mapper v1.0</a></h2>
+								<div class="text">&lt;p&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Lato, &amp;quot;Noto Sans JP&amp;quot;, &amp;quot;ヒラギノ角ゴ ProN&amp;quot;, &amp;quot;Hiragino Kaku Gothic ProN&amp;quot;, メイリオ, Meiryo, &amp;quot;ＭＳ Ｐゴシック&amp;quot;, &amp;quot;MS PGothic&amp;quot;, sans-serif; font-size: 16px;&quot;&gt;When embarking on the deployment of a LoRaWAN network, understanding your gateway coverage and assessing radio performance across various locations is paramount. A field tester becomes an invaluable asset in this endeavour, serving as a portable, user-friendly tool that aids in pinpointing optimal gateway locations and monitoring coverage within specific zones. As the Chirpstack network takes shape and GPS coordinates are meticulously mapped for visualization, the next logical step is to enhance network mappers by gaining insight into and sharing the real network coverage. This not only ensures the efficient operation of the LoRaWAN network but also facilitates the dissemination of accurate information to stakeholders, ultimately contributing to the network&#039;s effectiveness and success. This project plays a crucial role in determining the network coverage of a LoRaWAN network while also offering a comprehensive visualization of data through the mapping capabilities of the Grafana tool. By plotting network data on a map, this tool empowers users to precisely pinpoint areas of interest and assess their signal strength, as indicated by the received signal strength indicator (RSSI). This information is invaluable for network optimization and strategic sensor deployment. Armed with insights derived from the range mapper, users can confidently deploy sensors in areas that exhibit optimal network coverage, ensuring efficient data transmission and enhancing the overall effectiveness of their LoRaWAN network.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</div>
+								<a class="read-more" href="https://icfoss.in/project-details/58">Read more</a>
+							</div>
+						</div>
+					</div>
+									<!--News Block Five-->
+					<div class="news-block-five style-two col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image">
+								<a href="https://icfoss.in/project-details/63"><img  src="https://icfoss.in/get-image/projects/1695115175.jpg"  alt="" /></a>
+							</div>
+							<div class="lower-content">
+								
+								<h2><a href="https://icfoss.in/project-details/63">LoRaWAN Soil Moisture Sensor</a></h2>
+								<div class="text">&lt;p&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Lato, &amp;quot;Noto Sans JP&amp;quot;, &amp;quot;ヒラギノ角ゴ ProN&amp;quot;, &amp;quot;Hiragino Kaku Gothic ProN&amp;quot;, メイリオ, Meiryo, &amp;quot;ＭＳ Ｐゴシック&amp;quot;, &amp;quot;MS PGothic&amp;quot;, sans-serif; font-size: 16px;&quot;&gt;This soil moisture sensor measures and transmits moisture content of the soil wirelessly over the existing&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; color: rgb(51, 51, 51); font-family: Lato, &amp;quot;Noto Sans JP&amp;quot;, &amp;quot;ヒラギノ角ゴ ProN&amp;quot;, &amp;quot;Hiragino Kaku Gothic ProN&amp;quot;, メイリオ, Meiryo, &amp;quot;ＭＳ Ｐゴシック&amp;quot;, &amp;quot;MS PGothic&amp;quot;, sans-serif; font-size: 16px;&quot;&gt;&lt;em style=&quot;box-sizing: border-box;&quot;&gt;LoRaWAN&lt;/em&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Lato, &amp;quot;Noto Sans JP&amp;quot;, &amp;quot;ヒラギノ角ゴ ProN&amp;quot;, &amp;quot;Hiragino Kaku Gothic ProN&amp;quot;, メイリオ, Meiryo, &amp;quot;ＭＳ Ｐゴシック&amp;quot;, &amp;quot;MS PGothic&amp;quot;, sans-serif; font-size: 16px;&quot;&gt;&amp;nbsp;network. The sensor is programmed to measure the moisture level of the soil every 15 minutes and transmit to Chirpstack server. Housed inside a&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; color: rgb(51, 51, 51); font-family: Lato, &amp;quot;Noto Sans JP&amp;quot;, &amp;quot;ヒラギノ角ゴ ProN&amp;quot;, &amp;quot;Hiragino Kaku Gothic ProN&amp;quot;, メイリオ, Meiryo, &amp;quot;ＭＳ Ｐゴシック&amp;quot;, &amp;quot;MS PGothic&amp;quot;, sans-serif; font-size: 16px;&quot;&gt;&lt;em style=&quot;box-sizing: border-box;&quot;&gt;3D printed PLA&lt;/em&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Lato, &amp;quot;Noto Sans JP&amp;quot;, &amp;quot;ヒラギノ角ゴ ProN&amp;quot;, &amp;quot;Hiragino Kaku Gothic ProN&amp;quot;, メイリオ, Meiryo, &amp;quot;ＭＳ Ｐゴシック&amp;quot;, &amp;quot;MS PGothic&amp;quot;, sans-serif; font-size: 16px;&quot;&gt;&amp;nbsp;enclosure that resembles a mushroom, this sensor has a capacitive dielectric sensor for measuring the water content in the soil. Applications of the sensor in agriculture includes irrigation automation, soil infiltration studies prior to farming, analysis of subsurface flow for terrain transformation planning &amp;amp; crop water requirement research.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</div>
+								<a class="read-more" href="https://icfoss.in/project-details/63">Read more</a>
+							</div>
+						</div>
+					</div>
+									<!--News Block Five-->
+					<div class="news-block-five style-two col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image">
+								<a href="https://icfoss.in/project-details/64"><img  src="https://icfoss.in/get-image/projects/1695115231.jpeg"  alt="" /></a>
+							</div>
+							<div class="lower-content">
+								
+								<h2><a href="https://icfoss.in/project-details/64">LoRaWAN based Automated Weather Station</a></h2>
+								<div class="text">&lt;p&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Lato, &amp;quot;Noto Sans JP&amp;quot;, &amp;quot;ヒラギノ角ゴ ProN&amp;quot;, &amp;quot;Hiragino Kaku Gothic ProN&amp;quot;, メイリオ, Meiryo, &amp;quot;ＭＳ Ｐゴシック&amp;quot;, &amp;quot;MS PGothic&amp;quot;, sans-serif; font-size: 16px;&quot;&gt;The LoRaWAN-based Automated Weather Station (AWS) is a cutting-edge meteorological solution that combines the power of LoRaWAN communication with advanced weather-sensing capabilities. This state-of-the-art weather station is engineered to provide precise, real-time weather data across a wide range of applications. Equipped with sensors for measuring temperature, humidity, atmospheric pressure, wind speed, wind direction, rainfall, it ensures comprehensive weather monitoring. Its low-power design allows for extended operation in remote areas, while its LoRaWAN connectivity enables long-range data transmission to central servers or gateways. Customizable and adaptable, this AWS is ideal for agriculture, environmental research, smart cities, and various industries reliant on accurate weather information. With its data-driven insights, it empowers users to make informed decisions and optimize their operations in an ever-changing climate.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</div>
+								<a class="read-more" href="https://icfoss.in/project-details/64">Read more</a>
+							</div>
+						</div>
+					</div>
+								
+			</div>
+		</div>
+	</div>
+	
+	<!--Call To Action Section-->
+	<div class="call-to-action-section">
+		<div class="outer-container">
+			<div class="clearfix">
+			
+				<!--Left Column-->
+				<div class="left-column clearfix">
+					<div class="image-layer" style="background-image: url(images/background/1.jpg)"></div>
+					<div class="inner-column">
+						<h2>We are always open and ready to help<br/> Feel free to write to us</h2>
+					</div>
+				</div>
+				
+				<!--Right Column-->
+				<div class="right-column">
+					<div class="inner-column">
+						<a href="contact.html" class="theme-btn btn-style-four">Contact Us</a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<!--End Call To Action Section-->
+				</div>
+
+				<!--Main Footer-->
+<footer class="main-footer">
+	<div class="auto-container">
+    	<!--Widgets Section-->
+        <div class="widgets-section">
+        	<div class="row clearfix">
+            	
+                <!--Column-->
+                <div class="big-column col-lg-6 col-md-12 col-sm-12">
+					<div class="row clearfix">
+					
+                    	<!--Footer Column-->
+                        <div class="footer-column col-lg-12 col-md-12 col-sm-12">
+                            <div class="footer-widget logo-widget">
+								<div class="logo">
+									<a href="https://icfoss.in/home"><img style="filter: brightness(0) invert(1);" src="https://icfoss.in/vendor/front/images/logo.svg" alt="" /></a>
+								</div>
+								<div class="text">Greenfield Stadium, Opposite University of Kerala Campus, Karyavattom, Thiruvananthapuram, Kerala 695581</div>
+								<ul class="list-style-one">
+									<li><span>Phone:</span> +91 471-2413012, +91-9400225962</li>
+									<li><span>Email:</span>  info@icfoss.in</li>
+									<li><span>Working Hours:</span> Monday to Saturday 10 AM - 6 PM, Except government holidays and 4th saturday.</li>
+								</ul>
+								<!--Social Icon One-->
+																<ul class="social-icon-one">
+									<li><a target='_blank' href="https://www.facebook.com/ICFOSS"><span class="fa fa-facebook"></span></a></li>
+									<li><a target='_blank' href="https://www.linkedin.com/company/icfoss"><span class="fa fa-linkedin"></span></a></li>
+									<li><a target='_blank' href="https://twitter.com/fosskerala"><span class="fa fa-twitter"></span></a></li>
+								</ul>
+							</div>
+						</div>
+						
+						
+					</div>
+				</div>
+				
+				<!--Column-->
+                <div class="big-column col-lg-6 col-md-12 col-sm-12">
+					<div class="row clearfix">
+						
+						<!--Footer Column-->
+                        <!-- <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                            <div class="footer-widget posts-widget">
+								<h2>Twitter Feed</h2>
+								
+								<article class="post">
+									<div class="text">ICFOSS's drone spreads its wings</div>
+									<ul class="post-date">
+										<li>Sep 25 2018</li>
+									</ul>
+								</article>
+								
+								<article class="post">
+									<div class="text">ICFOSS to shift operations from Technopark to Sports facilties</div>
+									<ul class="post-date">
+										<li>Sep 25 2018</li>
+									</ul>
+								</article>
+								
+								<article class="post">
+									<div class="text">Improve Your Business Ideas</div>
+									<ul class="post-date">
+										<li>Sep 25 2018</li>
+									</ul>
+								</article>
+								
+							</div>
+						</div> -->
+
+						<!--Footer Column-->
+                        <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                            <div class="footer-widget links-widget">
+								<h2>Quick Links</h2>
+                            	<ul class="footer-link">
+									<li><a href="https://icfoss.in/events">Events</a></li>
+									<li><a href="https://icfoss.in/icfoss-news">News</a></li>
+									<li><a href="https://icfoss.in/tenders">Tenders</a></li>
+									<!-- <li><a href="https://icfoss.in/mediakit">Media Kit</a></li>
+									<li><a href="https://icfoss.in/downloads">Downloads</a></li> -->
+									<li><a href="https://icfoss.in/faq">FAQs</a></li>
+									<li><a href="https://icfoss.in/contact">Contact us</a></li>
+								</ul>
+							</div>
+						</div>
+						
+						<!--Footer Column-->
+                        <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                            <div class="footer-widget newsletter-widget">
+								<h2>Our Newsletter</h2>
+								<div class="text">Get in your inbox the latest News and Offers from ICFOSS</div>
+								<div class="newsletter-form">
+                                    <form method="POST" action="https://icfoss.in/project-details/56" accept-charset="UTF-8" id="subscribe-form"><input name="_token" type="hidden" value="gMZiVY0AZ15z1rZiKI6UvLVTNcX2eG4zVlZbKIoL">
+                                        <div class="form-group">
+                                            <input type="email" name="email" value="" placeholder="Email address" required>
+                                        </div>
+                                       
+                                        <div class="form-group">
+                                            <button id='subscribe' type="submit" class="theme-btn btn-style-one">Subscribe</button>
+                                        </div>
+                                        <!-- <div class="form-group">
+                                            <button id='unsubscribe' type="submit" class="theme-btn btn-style-one">Unsubscribe</button>
+                                        </div> -->
+                                       </form>
+                                    
+                                </div>
+                               
+					                <div class="row clearfix subscribe-toggle" hidden>
+										<div class="col-md-12 subscribe">
+
+										</div>
+									</div>                           
+					            
+					            	
+					           
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<!--Footer Bottom-->
+    <div class="footer-bottom">
+    	<div class="auto-container">
+        	<div class="row clearfix">
+            	<div class="column col-md-9 col-sm-12 col-xs-12">
+                	<div class="copyright">All content on this site is available under the Creative Commons Attribution-ShareAlike 3.0 Unported (<a href="">CC BY-SA 3.0</a>) licence. </div>
+                </div>
+                <!-- <div class="column col-md-3 col-sm-12 col-xs-12">
+                	<ul class="footer-nav">
+                    	<li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Legal Terms</a></li>
+                    </ul>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</footer>
+<!--End Main Footer			</div>
+
+			<!--End pagewrapper--><!--Scroll to top-->
+			<div class="scroll-to-top scroll-to-target" data-target="html">
+				<span class="fa fa-angle-double-up"></span>
+			</div>
+
+			<script src="https://icfoss.in/vendor/front/js/jquery.js"></script>
+<script src="https://icfoss.in/vendor/front/js/popper.min.js"></script>
+<script src="https://icfoss.in/vendor/front/js/bootstrap.min.js"></script>
+<script src="https://icfoss.in/vendor/front/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="https://icfoss.in/vendor/front/js/jquery.fancybox.js"></script>
+<script src="https://icfoss.in/vendor/front/js/appear.js"></script>
+<script src="https://icfoss.in/vendor/front/js/owl.js"></script>
+<script src="https://icfoss.in/vendor/front/js/validate.js"></script>
+<script src="https://icfoss.in/vendor/front/js/wow.js"></script>
+<script src="https://icfoss.in/vendor/front/js/sticky.js"></script>
+<script src="https://icfoss.in/vendor/front/js/slick.js"></script>
+<script src="https://icfoss.in/vendor/front/js/jquery-ui.js"></script>
+<script src="https://icfoss.in/vendor/front/js/jquery.redirect.js"></script>
+<script src="https://icfoss.in/vendor/front/js/script.js"></script>
+
+<script type="text/javascript"> 
+
+	//Base Url intialisation       
+	var base_url = "https:\/\/icfoss.in"
+	//Token intialisation
+	var csrftoken = "gMZiVY0AZ15z1rZiKI6UvLVTNcX2eG4zVlZbKIoL"
+	//Current User Id
+	var userId = 0
+
+</script>
+
+<!-- Ajax call js file -->
+<script src="https://icfoss.in/js/ajaxcall.js"></script>
+<!-- Application front js file -->
+<script src="https://icfoss.in/js/front.js"></script>
+								</body>
+	</html>
